@@ -1,0 +1,54 @@
+# Dependencies
+# markdown:         redcarpet
+# pygments:         true
+# highliter:         rouge
+# source:       .
+# destination:  ./_site
+# plugins_dir:  _plugins
+# layouts_dir:  _layouts
+# data_dir:     _data
+# includes_dir: _includes
+# collections:
+#   posts:
+#     output:   true
+
+# Permalinks
+# permalink:        pretty
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+# Setup
+title:            Blackode
+tagline:          'bug is not an insect'
+description:      'A Programmers and Technical Blog'
+gems:
+    -  jekyll-feed
+    -  jekyll-paginate
+url:              http://blog.blackode.in
+timezone: 'UTC+5:30'
+author:
+  name:           'Ankanna'
+  web: "http://blackode.in"
+  email: "codeme@gmx.com"
+  url:            https://twitter.com/tweetblackode
+
+paginate:         5
+paginate_path: "/blog/page:num/"
+
+# Custom vars
+version:          1.0.0
+future:          true
+published:       true
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+github:
+  repo:           https://github.com/blackode/blog
+
+#Social Media 
+linkedin_username:    Ankanna
+google_plus_username: blackode
+facebook_username:    ankanna
+medium_username: blackode
+twitter_username: tweetblackode
+behance_username: blackode
