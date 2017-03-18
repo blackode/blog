@@ -9,7 +9,7 @@
   <div class="sidebar-item">
     <span>
         <!-- Mugshot. -->
-        <img src="/public/images/avatar.jpeg" class="avatar white-border" alt="A photo of {{ site.author.name }}" />
+        <img src="/public/images/avatar.jpeg" class="avatar img-responsive img-circle"  alt="A photo of {{ site.author.name }}" />
 
         <!-- Personal Info. -->
         Written by <a href="{{ site.author.web }}" target="_blank">{{ site.author.name }}</a>
@@ -17,12 +17,12 @@
   </div>
 {% endif %}
 
-  <div class="sidebar-item">
+  <div class="sidebar-item bg-primary">
     <p>{{ site.description }}</p>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
+      <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/"><i class="fa fa-home fa-fw"  area-hidden = "true"></i> Home</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
