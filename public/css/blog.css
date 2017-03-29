@@ -84,12 +84,11 @@ a {
   text-decoration: none;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
-a:not(.sidebar-nav-item):hover,
-a:not(.sidebar-nav-item):focus {
-  text-decoration: none;
-  color: #fff;
-  background-color: #222;
-  padding:3px 3px 3px 3px;
+a:not(.sidebar-nav-item):hover{
+background-color: #222;
+text-decoration: none;
+padding:3px 3px 3px 3px;
+color: #fff;
 }
 
 /* headings */
