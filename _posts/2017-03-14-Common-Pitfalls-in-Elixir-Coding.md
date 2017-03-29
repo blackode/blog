@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Common Pitfalls in Elixir Coding
+subtitle: To fall is to raise
 ---
 To fall is to raise
 ![img](https://cdn-images-1.medium.com/max/720/0*gvT1CcmMLv0DYI9R.jpg)

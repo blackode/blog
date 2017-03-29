@@ -1,23 +1,70 @@
 .avatar{
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .img-center{
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .text-white{
-    color: white;
+  color: white;
 }
 .bg-black{
-    background-color: black;
+  background-color: black;
 }
 .bg-white{
-    background-color: white;
+  background-color: white;
 }
 
 .post-description{
-    font-size: 150%;
+  font-size: 150%;
 }
 .no-post {
   opacity: .5;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.date{
+  font-size: 12px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin: 0 0 1em 0;
+  font-size: 0.8461538461538462em;
+  color: #aaa;
+  line-height: 1.692307em;
+  word-spacing: 2px
+}
+.post-url{
+  color: #222;
+}
+
+.lightie{
+  color: #aaa;
+}
+.darkie{
+  color: #222;
+}
+.tagie{
+  border: 1px solid #555;
+  display: inline-block;
+  font-size: 0.9em;
+  font-style: normal;
+  text-transform: capitalize;
+  padding: 6px 8px;
+  line-height: 1em;
+  border-radius: 3px;
+  margin: 0 5px 0 0;
+  letter-spacing: .5px;
+  color: #555;
+  font-weight: normal;
+}
+a{color: #639;}
+
+a:not(.sidebar-nav-item):hover{
+background-color: #222;
+text-decoration: none;
+padding:3px 3px 3px 3px;
+color: #fff;
 }

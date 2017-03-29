@@ -8,28 +8,31 @@ title: Home
     <div class="row">
       <div class="">
         <div class="">
-            <a href="{{ post.url }}" class= "">
-          {% if post.image %}
+          <a href="{{ post.url }}" class= "">
+            {% if post.image %}
               <img src="public/images/{{post.image}}" class="img-feature img-responsive">
-          {% endif %}
-            </a>
+            {% endif %}
+          </a>
           <div class="caption">
-            <a href="{{ post.url }}" class= "">
-              <h1>{{post.title | upcase}}</h1>
-            </a>
-            <p>{{post.excerpt}}</p>
-            <span class="post-date">
-              <i class="fa fa-calendar" data-hidden=true></i> {{ post.date | date_to_string }}</span>
+              <h1><a href="{{ post.url }}" class= "post-url">{{post.title | upcase}}</a></h1>
+              {% if post.subtitle %}<small class="">{{post.subtitle}}</small>{%endif%}
+            <p class="date">
+            <i class="fa fa-calendar" data-hidden=true></i> {{ post.date | date: "%B %d, %Y"}}. by <a href = "https://twitter.com/tweetblackode" class="lightie">Blackode</a>. In {%if post.category%}{{post.category}}{% else %} Elixir{% endif %}</p>
+          </div>
+          <div>
+            <p>{{ post.content | strip_html | truncatewords: 50}}
+              <br><a href="{{post.url}}">Continue reading →</a>
+            </p>
             <span>
               {% for tag in post.tags %}
-                <kbd class="inverse">{{ tag }}</kbd>
+                <label class="tagie">{{ tag }}</label>
               {% endfor %}
             </span>
           </div>
         </div>
+        <hr>
       </div>
     </div>
-    <hr>
   {% endfor %}
 </div>
 {%include paginator.html %}
