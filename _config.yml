@@ -28,6 +28,7 @@ gems:
     -  jekyll-paginate
     -  jekyll-gist
 url:              http://blog.blackode.in
+linenos: true
 timezone: 'UTC+5:30'
 author:
   name:           'Ankanna'
