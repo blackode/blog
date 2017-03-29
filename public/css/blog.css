@@ -45,12 +45,15 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  font-family: 'Bitter',"PT Serif", Georgia, "Times New Roman", serif;
+  line-height: 24px;
+  color:#555;
 }
 
 html {
-  font-family:"Bitter", "helvetica neue", helvetica, arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: 'Bitter',"PT Serif", Georgia, "Times New Roman", serif;
+  line-height: 24px;
 }
 
 @media (min-width: 38rem) {
@@ -66,6 +69,15 @@ body {
       -ms-text-size-adjust: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bitter","PT Sans", Helvetica, Arial, sans-serif;
+  color: #222;
+  /* letter-spacing: -.025rem; */
+  font-size: 1.8em;
+  line-height: 1.3em;
+  font-weight:normal;
+  word-spacing: 2px;
+}
 /* no `:visited` state is required by default (browsers will use `a`) */
 a {
   color: #222222;
@@ -81,28 +93,6 @@ a:focus {
 }
 
 /* headings */
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  font-weight: bold;
-  line-height: 1.25;
-  color: #222;
-  text-rendering: optimizelegibility;
-}
-h1 {
-  font-size: 2rem;
-}
-h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-}
-h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
-}
-h4, h5, h6 {
-  margin-top: 1rem;
-  font-size: 1rem;
-}
 
 /* body text */
 p {
