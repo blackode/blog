@@ -62,7 +62,7 @@ img{
 }
 a{color: #639;}
 
-a:not(.sidebar-nav-item):hover{
+a:not(.sidebar-nav-item,.pagination-item):hover{
 background-color: #222;
 text-decoration: none;
 padding:3px 3px 3px 3px;
