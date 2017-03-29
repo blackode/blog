@@ -84,8 +84,8 @@ a {
   text-decoration: none;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
-a:hover,
-a:focus {
+a:not(.sidebar-nav-item):hover,
+a:not(.sidebar-nav-item):focus {
   text-decoration: none;
   color: #fff;
   background-color: #222;
