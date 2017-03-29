@@ -2,6 +2,9 @@
 layout: post
 title:  Elixir Pocket Syntax
 date:   2017-02-17 14:57:05 +0530
+image: elixirpocketimage.jpg
+tags: [html,info,code,love]
+category: Elixir
 ---
 
 

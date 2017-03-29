@@ -4,8 +4,7 @@ title: About
 ---
 
 <p class="message">
-I am a `Elixir` Developer.I am a programmer and I do not have a girl
-friend.
+I am a `Elixir` Developer and Techinical Writer.
 </p>
 
 

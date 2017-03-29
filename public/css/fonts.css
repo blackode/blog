@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'rockwell-bold'; /*a name to be used later*/
+    src: url('/public/fonts/rockwell/rockwell-bold.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'rockwell'; /*a name to be used later*/
+    src: url('/public/fonts/rockwell/rockwell.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'rockwell-light'; /*a name to be used later*/
+    src: url('/public/fonts/rockwell/rockwell-light.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'rockney-regular'; /*a name to be used later*/
+    src: url('/public/fonts/rockney/rockney-regular.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'arvo-regular'; /*a name to be used later*/
+    src: url('/public/fonts/arvo/Arvo-Regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'arvo-bold'; /*a name to be used later*/
+    src: url('/public/fonts/arvo/Arvo-Bold.ttf'); /*URL to font*/
+}
+
+@font-face{
+  font-family:'arvo-italic'
+  src: url('/public/fonts/arvo/Arvo-Italic.ttf')
+}
+@font-face{
+  font-family:'arvo-bold-italic'
+  src: url('/public/fonts/arvo/Arvo-BoldItalic.ttf')
+}
+@font-face{
+  font-family:'egyptienne'
+  src: url('/public/fonts/egyptienne/egyptienne-roman.otf')
+}
+@font-face{
+  font-family:'courier-prime-bold'
+  src: url('/public/fonts/Courier\ Prime/Courier\ Prime\ Bold.ttf')
+}
+@font-face{
+  font-family:'courier-prime'
+  src: url('/public/fonts/Courier\ Prime/Courier\ Prime.ttf')
+}
+@font-face{
+  font-family:'courier-prime-italic'
+  src: url('/public/fonts/Courier\ Prime/Courier\ Prime\ Italic.ttf')
+}
+@font-face{
+  font-family:'courier-prime-bold-italic'
+  src: url('/public/fonts/Courier\ Prime/Courier\ Prime\ Bold\ Italic.ttf')
+}

@@ -1,0 +1,20 @@
+<hr>
+<div class="row">
+    {% if paginator.next_page %}
+      <a class="pagination-item text-center" href="/blog/page{{paginator.next_page}}">Older</a>
+    {% else %}
+      <span class="text-center pagination-item no-post">Older</span>
+    {% endif %}
+
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a class="pagination-item newer   text-center" href="/">Newer</a>
+      {% else %}
+        <a class="pagination-item   text-center" href="/blog/page{{paginator.previous_page}}">Newer</a>
+      {% endif %}
+    {% else %}
+      <span class="pagination-item newer text-center no-post">Newer</span>
+    {% endif %}
+
+</div>
+<hr>

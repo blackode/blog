@@ -26,6 +26,7 @@ description:      'A Programmers and Technical Blog'
 gems:
     -  jekyll-feed
     -  jekyll-paginate
+    -  jekyll-gist
 url:              http://blog.blackode.in
 timezone: 'UTC+5:30'
 author:
@@ -36,6 +37,8 @@ author:
 
 paginate:         5
 paginate_path: "/blog/page:num/"
+gist:
+  noscript: false
 
 # Custom vars
 version:          1.0.0

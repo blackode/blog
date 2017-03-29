@@ -1,0 +1,23 @@
+.avatar{
+    margin: 0 auto;
+}
+.img-center{
+    margin: 0 auto;
+}
+
+.text-white{
+    color: white;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-white{
+    background-color: white;
+}
+
+.post-description{
+    font-size: 150%;
+}
+.no-post {
+  opacity: .5;
+}
