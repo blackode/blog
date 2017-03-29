@@ -60,11 +60,14 @@ img{
   color: #555;
   font-weight: normal;
 }
-a{color: #639;}
+a{
+color: #639;
+}
 
 a:not(.sidebar-nav-item,.pagination-item):hover{
 background-color: #222;
 text-decoration: none;
 padding:3px 3px 3px 3px;
 color: #fff;
+
 }
