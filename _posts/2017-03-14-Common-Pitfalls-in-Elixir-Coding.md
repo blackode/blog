@@ -3,7 +3,6 @@ layout: post
 title: Common Pitfalls in Elixir Coding
 subtitle: To fall is to raise
 ---
-To fall is to raise
 ![img](https://cdn-images-1.medium.com/max/720/0*gvT1CcmMLv0DYI9R.jpg)
 
 This article is all about common mistakes of newbies in Elixir. Even experts in Elixir some times fall under this category. From the experience, I am revealing some sort of things to be careful while coding. This doesn’t mean that you fall in this category. I am just saying there are pits and you do not fall into it. Don’t worry I am just kidding. Lets jump into virtual pitfalls…
@@ -309,10 +308,6 @@ Sharing is Caring…
 ![img](https://cdn-images-1.medium.com/max/720/0*f6u0dRVA2PCnQr7E.jpg)
 
 Google image Sharing is Caring
-
-![img](https://cdn-images-1.medium.com/max/720/1*yY-xYJ7Y2Fm6JMOLofgVoA.gif)
-
 Love to recommend
 
 Happy Coding…
-{% gist blackode/a1505bb9f5c1c54b024998ac385cb7a8 %}

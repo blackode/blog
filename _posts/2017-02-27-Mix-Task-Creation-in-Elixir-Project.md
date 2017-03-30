@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Mix Task Creation in Elixir Project
+subtitle: Tasks add extra cheese to your code
 ---
-Tasks add extra cheese to your code.
-![img](https://cdn-images-1.medium.com/max/720/1*o8jQOVCEisFwVb_zV6B5QQ.png)Grow with confidence in elixir
 
 Here we fly in Elixir space to create mix tasks in mix project including with docs and short docs.
 
@@ -27,7 +26,7 @@ Our module name should start with `Mix.Tasks` for an example, if our task name
 
 This acts as a callback function to our task. All your task logic resides inside this function. This function takes list of binary `[binary]` values and returns `any`
 
-```
+```elixir
 run([binary]) :: any
 ```
 
@@ -49,7 +48,7 @@ Lets do this.
 
 #### Create a new project
 
-```
+```elixir
 mix new my_tasks
 ```
 
@@ -57,7 +56,7 @@ mix new my_tasks
 
 After creation of the project go to your `lib` directory and create one nested directory as `mix/tasks` . This is where all our tasks reside.
 
-```
+```elixir
 $ cd path/to/your/project
 $ cd lib
 $ mkdir -p mix/tasks
@@ -97,18 +96,18 @@ So far we have created a task but it is not available until you compile your pro
 
 Run the following command in your project root directory.
 
-```
+```elixir
 mix compile
 ```
 
 After successful compilation you can run your task as
 
-```
+```elixir
 $ mix my_tasks.functions Hello
 [hello1: 0, hello2: 0, hello3: 0]
 ```
 
-```
+```elixir
 $mix my_tasks.functions Hi
 [hi1: 0, hi2: 0, hi3: 0]
 ```
@@ -129,7 +128,7 @@ Task with @shortdoc and @moduledoc
 
 ![img](https://cdn-images-1.medium.com/max/720/0*SOFSiJHylCKMOb-9.)
 
-```
+```elixir
 mix help
 ```
 
@@ -141,7 +140,7 @@ You can see your task in the list here with `@shortdoc` information saying **
 
 ![img](https://cdn-images-1.medium.com/max/720/0*SOFSiJHylCKMOb-9.)
 
-```
+```elixir
 mix help my_tasks.functions
 ```
 
@@ -161,8 +160,4 @@ Share if you care google image search
 
 **Sharing is caring !! smile :-)**
 
-Happy coding!
-
-![img](https://cdn-images-1.medium.com/max/720/1*GRM86mUUV_TYgxmNG29SwQ.gif)
-
-love to recommend
+Happy coding...!!
