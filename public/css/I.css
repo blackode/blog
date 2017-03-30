@@ -1,5 +1,7 @@
 .avatar{
   margin: 0 auto;
+  height:inherit;
+  width:inherit;
 }
 .img-center{
   margin: 0 auto;

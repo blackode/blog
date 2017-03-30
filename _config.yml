@@ -36,7 +36,7 @@ author:
   email: "codeme@gmx.com"
   url:            https://twitter.com/tweetblackode
 
-paginate:         5
+paginate:         10
 paginate_path: "/blog/page:num/"
 gist:
   noscript: false
